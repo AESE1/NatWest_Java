@@ -9,7 +9,9 @@ public class Runner {
 //		System.out.println(addTwo(1343, 345646));
 //		System.out.println(subTwo(10, 20));// -10
 //		System.out.println(subTwo(30, 20));
-
+		System.out.println(mulTwo(10, 10));
+		System.out.println(divTwo(10, 5));
+		
 	}// END
 
 	// methods - outside of the main method
@@ -21,12 +23,12 @@ public class Runner {
 		return number1 - number2;
 	}
 
-	public static int mulTwo() {
-		return 0;
+	public static int mulTwo(int number1, int number2) {
+		return number1 * number2;
 	}
 
-	public static int divTwo() {
-		return 0;
+	public static int divTwo(int number1, int number2) {
+		return number1 / number2;
 	}
 
 }// END
