@@ -5,7 +5,7 @@ public class Runner {
 	public static int variable = 2;
 
 	public static void main(String[] args) {
-<<<<<<< HEAD
+
 //		boolean payDay = true;
 //		System.out.println(payDay);
 //
@@ -30,7 +30,7 @@ public class Runner {
 		else {System.out.println("vin is very poor currently");
 		}
 	}
-=======
+
 //		System.out.println(10 == 10);
 //		System.out.println(10 == 20);// false
 //		System.out.println(1000 != 2000);// true
@@ -47,17 +47,17 @@ public class Runner {
 //		System.out.println(variable);// 2
 //		conditional(10000);
 
-		int number = 19;
+//		int number = 19;
+//
+//		if (number <= 20) {
+//			System.out.println("Number is less than or equal to 20"); // A
+//		} else if (number < 40) {
+//			System.out.println("Number is between 20 and 40");// B
+//		} else {
+//			System.out.println("Number is greater than or equal 40"); // C
+//		}
 
-		if (number <= 20) {
-			System.out.println("Number is less than or equal to 20"); // A
-		} else if (number < 40) {
-			System.out.println("Number is between 20 and 40");// B
-		} else {
-			System.out.println("Number is greater than or equal 40"); // C
-		}
-
-	}
+	
 
 	// METHOD
 	// Name = conditional
@@ -73,7 +73,7 @@ public class Runner {
 		return true;
 	}
 
->>>>>>> 4933623256463cec183665a261dc758b81e09872
+
 }
 	
 	
