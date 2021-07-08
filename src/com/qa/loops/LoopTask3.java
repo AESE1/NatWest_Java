@@ -1,6 +1,6 @@
 package com.qa.loops;
 
-public class Loop3 {
+public class LoopTask3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
