@@ -11,6 +11,8 @@ public class Arraylist {
 		
 		listOfNames.add("Anton");
 		System.out.println(listOfNames);
+		System.out.println(listOfNames.isEmpty());
+		
 
 }
 	

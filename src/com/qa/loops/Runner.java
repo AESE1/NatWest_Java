@@ -7,32 +7,95 @@ public class Runner {
 		// for(<some variable>;<some condition>; <incrementer>){
 		// Body/ LOGIC
 		// }
-//		int myNum = 10;
-//
-//		for (int count = 10; count <= myNum;count++) {
-//			System.out.println("Do a press up " + count);
+
+//		for (int i = 0; i <= 3; i++) {
+//			System.out.println(i);
 //		}
+//1a.		first time it runs set count to 1;
+//2.		next it check if count is less than or equal to 5
+//3.		Then if it is it prints the line 
+//4.		And then AFTER increments the value
 
 		// While(condition){
 		// keep doing it
 		// }
 		//
+//		System.out.println("IT continue to run outSIDEEEEEE");
+//		boolean homeTime = false;
+//		int time = 2; // 5pm
+//
+//		while (!homeTime) {  
+//
+//			// its setting homeTime to true;
+//			if (time >= 5) {
+//				homeTime = true;
+//			}
+//			System.out.println("Keep working " + time);
+//			
+//			// increments
+//			time++;
+//
+//		}
+//		while loop check the condition first and only then will run
 
+		// Do While loop WILL RUN ONCE ALWAYS
+//		do{
+//			L O G I C //E
+//		}while(some condition is true)
+//		
+
+		boolean myBool = true;
+
+//		do {
+//			System.out.println("DO WHILE: Dont end the world!");
+//			myBool = false;
+//		} while (myBool);
+
+<<<<<<< HEAD
 		boolean homeTime = false;
 		int time = 15; // 5pm
+=======
+//		myBool = true;
+//		while (myBool) {
+//			System.out.println("WHILE: Dont end the world!");
+//			myBool = false;
+//		}
+>>>>>>> 11e02630997b4cddb49a6d50a9b5a1af1cbce822
 
-		while (!homeTime) {
+//		for (int A = 100; A < 200; A++) {
+//			System.out.println("A " + A);
+//		}
+		// CALLING A METHOD
+//		looping();
+		printNumImproved();
+	}
 
-			// its setting homeTime to true;
-			if (time >= 17) {
-				homeTime = true;
-				return;
+	public static void looping() {
+		int A = 100;
+		for (A = 100; A <= 200; A++) {
+			// if 100%2==0 then it must be even
+			if (A % 2 == 0) {
+				System.out.println("EVEN - " + A);
+			} else {
+				System.out.println("ODD * " + A);
 			}
-			System.out.println("Keep working " + time);
-			time++;
-
 		}
+//		printNums();
 
+	}
+
+	public static void printNums() {
+		for (int i = 1; i <= 10; i++) {
+			System.out.println(i + "" + i + "" + i + "" + i + "" + i + "" + i + "" + i + "" + i + "" + i + "" + i);
+		}
+	}
+
+	public static void printNumImproved() {
+		for (int i = 1; i <= 20; i++) {
+			for (int j = 0; j < i; j++) {
+				System.out.print(i);
+			}
+		}
 	}
 
 }
