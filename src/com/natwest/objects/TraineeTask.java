@@ -30,19 +30,10 @@ public class TraineeTask {
 		TraineeList.add(Joe);
 		TraineeList.add(Paul);
 		
-		for (Trainee aTrain : TraineeList);
+		for (Trainee aTrain : TraineeList) {
 		System.out.println(aTrain);
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		}
+				
 				
 		
 	}

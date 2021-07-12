@@ -1,12 +1,15 @@
 package com.natwest.objects;
 
+import java.util.ArrayList;
+
 public class Trainee {
 //These are the class members
 	public String name;
 	public String pathway;
 	public boolean hired = false;
 
-
+	ArrayList<Trainee> TraineeList = new ArrayList <>();
+	
 	public Trainee(String name, String pathway, boolean hired) {
 //	ALL Args constructor
 		this.name = name;
@@ -59,7 +62,14 @@ public class Trainee {
 	public void setHired(boolean hired) {
 		this.hired = hired;
 	}
+}
 
+
+	public void addToList(Trainee) {
+		TraineeList.add(p);
+		
+		
+	}
 	
 	
 	
