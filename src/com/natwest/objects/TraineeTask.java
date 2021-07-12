@@ -30,6 +30,7 @@ public class TraineeTask {
 		TraineeList.add(Joe);
 		TraineeList.add(Paul);
 		
+//		This is an enhanced ForLoop
 		for (Trainee aTrain : TraineeList) {
 		System.out.println(aTrain);
 		}

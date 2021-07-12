@@ -24,7 +24,7 @@ public class Trainee {
 		this.pathway = pathway;
 	}
 	
-//	This is a default constructor
+//	This is a default constructor (Put this first)
 	public Trainee() {
 	}
 
@@ -64,14 +64,4 @@ public class Trainee {
 	}
 }
 
-
-	public void addToList(Trainee) {
-		TraineeList.add(p);
 		
-		
-	}
-	
-	
-	
-	
-	}
