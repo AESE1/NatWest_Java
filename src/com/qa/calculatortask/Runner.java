@@ -59,7 +59,7 @@ public class Runner {
 		return number1 - number2;
 	}
 
-<<<<<<< HEAD
+
 	public static int mulTwo(int number1, int number2) {
 		return number1 * number2;
 	}
@@ -71,7 +71,7 @@ public class Runner {
 	}
 
 	public static double divTwo(double number1, double number2) {
->>>>>>> 5d5f011975976518ad76da52ac9333b09d3338ad
+
 		return number1 / number2;
 	}
 

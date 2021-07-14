@@ -33,6 +33,8 @@ public class Runner {
 		default:
 			System.out.println("You need to listen to The Cure");
 			break;
+			
+			
 		}
 
 //		if (day == 1) {
