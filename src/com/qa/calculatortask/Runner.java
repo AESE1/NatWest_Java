@@ -3,8 +3,12 @@ package com.qa.calculatortask;
 // NAME OF THE CLASS
 public class Runner {
 
+	String name = "VinESHHHHHHHH";
+	static String hometime = "time to go home yet?";
+
 	// Entry point - MAIN METHOD
 	public static void main(String[] args) {
+<<<<<<< HEAD
 <<<<<<< HEAD
 		System.out.println(addTwo(10.5423456d, 150.46465d));
 <<<<<<< HEAD
@@ -22,6 +26,9 @@ public class Runner {
 		System.out.println(divTwo(4, 7));
 		System.out.println(mulTwo(5, 57));
 =======
+=======
+
+>>>>>>> c9a2f50085e4240672b13e9b1350a9fb1ac48629
 //		System.out.println(addTwo(10.5423456d, 150.46465d));
 //		System.out.println(subTwo(15.5, 10.4567));
 //		System.out.println(mulTwo(235.6, 56));
@@ -29,8 +36,15 @@ public class Runner {
 //		System.out.println(divTwo(4, 7));
 //		System.out.println(mulTwo(5, 57));
 
+<<<<<<< HEAD
 		System.out.println(sayHello("Vin"));
 >>>>>>> 2d9a166eab3ca53817251b3f12967a3528d08379
+=======
+		Runner r = new Runner();
+		System.out.println(r.sayHello("Vin"));
+		System.out.println(r.name);
+		System.out.println(hometime);
+>>>>>>> c9a2f50085e4240672b13e9b1350a9fb1ac48629
 
 >>>>>>> 5d5f011975976518ad76da52ac9333b09d3338ad
 	}// END
@@ -40,7 +54,7 @@ public class Runner {
 	// addtwo - THE NAME HOW TO CALL IT
 	// (they are the arugments )
 	// when i call addTwo (the first number, the second number);
-	public static double addTwo(double number1, double number2) {
+	public double addTwo(double number1, double number2) {
 		return number1 + number2;
 	}
 
@@ -51,7 +65,7 @@ public class Runner {
 //	
 
 	// i want a method that "returns" a string= hello plus my name= String
-	public static String sayHello(String name) {
+	public String sayHello(String name) {
 		return "Hello " + name + " my name is " + name;
 	}
 

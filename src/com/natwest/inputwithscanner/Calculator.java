@@ -1,35 +1,37 @@
 package com.natwest.inputwithscanner;
 
-import java.util.Scanner;
-
 final public class Calculator {
-	
-	public static void main(String[] args) {
-		
-		
 				
-	}
-				
-	public void addTwo(double num1, double num2){
-		System.out.println(num1+num2);
+			
+	public double addTwo(double num1, double num2){
+		return num1+num2;
 		
 	}
 		
-	public void subTwo(double num1, double num2) {
-		System.out.println(num1-num2);
+	public double subTwo(double num1, double num2) {
+		return num1-num2;
 
 		}
 	
-	public void mulTwo(double num1, double num2) {
-		System.out.println(num1*num2);
+	public double mulTwo(double num1, double num2) {
+		return num1*num2;
 		
 		}
 			
-	public void divTwo(double num1, double num2) {
-		
-		System.out.println(num1 / num2);
+	public double divTwo(double num1, double num2) {
+		return num1/num2;
 		
 		}
+
+	public int nextInt() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	public double nextDouble() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
 
 	
 }
